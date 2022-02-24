@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to left top, #55687c, #4f6276, #485c70, #42576b, #3c5165, #3e5367, #415569, #43576b, #4f6175, #5b6c7e, #677788, #738292);
+}
+
+h1 {
+    text-align: center;
+    /*ketebalan font*/
+    font-weight: 300;
+}
+
+.tulisan_login {
+    font-size: 32px;
+    font-style: bold;
+    color: #34495e;
+    text-align: center;
+    /*membuat semua huruf menjadi kapital*/
+    text-transform: uppercase;
+}
+
+.tulisan_login p {
+    padding-top: 10px;
+}
+
+.kotak_login {
+    width: 350px;
+    background-image: linear-gradient(to right top, #d6f4ff, #d6f4ff, #d6f4ff, #d6f4ff, #d6f4ff, #d6f4ff, #d6f4ff, #d6f4ff, #d6f4ff, #d6f4ff, #d6f4ff, #d6f4ff);
+    /*meletakkan form ke tengah*/
+    margin: 20px auto;
+    padding: 2px 40px 300px 40px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 14px 1px rgba(23, 4, 4, 0.2);
+}
+
+.form_login {
+    /*membuat lebar form penuh*/
+    font-family: inherit;
+    border-radius: 50px;
+    border: 0px;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 14px 1px rgba(23, 4, 4, 0.2);
+}
+
+.form_loginp {
+    /*membuat lebar form penuh*/
+    font-family: inherit;
+    border-radius: 50px;
+    border: 0px;
+    width: 100%;
+    padding: 5px;
+    font-size: 11pt;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 14px 1px rgba(23, 4, 4, 0.2);
+}
+
+
+.form_radio {
+    /*membuat lebar form penuh*/
+    font-family: inherit;
+    opacity: 1;
+    width: 15%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 11pt;
+}
+
+.but {
+    color: #34495e;
+    font-size: 18px;
+}
+
+.tombol_submit {
+    background: #34495e;
+    color: white;
+    font-size: 11pt;
+    width: 50%;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    box-shadow: 10px 10px 14px 1px rgba(23, 4, 4, 0.2);
+    font-family: inherit;
+    margin-top: 20px;
+}
+
+.tombol_submit:hover {
+    background: rgb(245, 4, 213);
+    color: white;
+}
+
+a {
+    color: #34495e;
+    text-decoration: none;
+    font-size: 18px;
+}
